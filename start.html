@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Вызов по клику</title>
+
+</head>
+<body>
+	<div>
+		<span>
+			<form>
+				<p style="text-align: center">
+					<button id="elem">Click</button>
+				</p>
+			</form>
+		</span>
+	</div>
+<script>
+//elem.onclick = function() {
+//	alert( 'Ok' );
+//};
+elem.onclick = (()=> console.log('ok')) 
+//	alert( 'Ok' );
+//};
+</script>
+
+
+</body>
+</html>
